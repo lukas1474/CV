@@ -8,7 +8,6 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-
   background-color: #fff;
 }
 
@@ -16,24 +15,30 @@ body {
 .projects,
 .jobs,
 .education {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #3B5998;
 }
 
 .right-side {
-  width: 830px;
+  width: 800px;
   padding-left: 80px;
   padding-right: 200px;
-  padding-bottom: 68px;
+  padding-bottom: 30px;
+}
+
+.bio {
+  margin-bottom: 60px;
 }
 
 .bio-title {
   font-size: 45px;
   line-height: 2;
-  margin-bottom: 20px;
 }
 
 .bio-occupation {
   margin-bottom: 27px;
+  font-size: 25px;
+  line-height: 1.714;
 }
 
 .bio-title,
@@ -41,31 +46,11 @@ body {
   color: #2a2a2a;
 }
 
-.bio-occupation,
-.bio-about {
-  font-size: 14px;
-  line-height: 1.714;
-}
-
-.bio-about {
-  color: #595959;
-}
-
 .projects-title {
   margin-bottom: 14px;
   color: #2a2a2a;
   font-size: 22px;
   line-height: 24px;
-}
-
-.projects-link {
-  color: #220fdc;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-.projects-link:hover {
-  color: #ff6b08;
 }
 
 .jobs-title,
@@ -84,7 +69,7 @@ body {
 
 .jobs-time,
 .education-time {
-  color: #828282;
+  color: black;
   font-size: 12px;
   line-height: 2;
 }
@@ -95,16 +80,37 @@ body {
   line-height: 1.714;
 }
 
+.jobs-link {
+  opacity: 1;
+  font-size: 25;
+  color: #3B5998;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.jobs-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 .accent {
-  color: #ff6b08;
+  color: #3B5998;
+}
+
+.clause {
+  font-size: 8px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 /* ========= left-side ========= */
 
 .left-side {
-  width: 370px;
-  background-color: #1e2939;
+  width: 400px;
+  background-color: #3B5998;
   color: #fff;
+  padding-top: 275px;
 }
 
 .skills-title {
@@ -125,7 +131,7 @@ body {
 .skills-item::before {
   content: '\2022';
   margin-right: 8px;
-  color: #ff6b08;
+  color: white;
   font-size: 18px;
 }
 
@@ -137,7 +143,7 @@ body {
 .contacts,
 .skills,
 .widget {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .contacts,
@@ -148,7 +154,7 @@ body {
 
 .contacts-title,
 .skills-title {
-  color: #ffffff;
+  color: #2a2a2a;
   font-family: Montserrat;
   font-size: 22px;
   font-weight: 700;
@@ -176,54 +182,4 @@ body {
 .contacts-link:hover {
   opacity: 1;
   text-decoration: underline;
-}
-
-.widget-link {
-  color: #fff;
-  background-color: #ff6b08;
-  padding-top: 20px;
-  padding-right: 43px;
-  padding-bottom: 20px;
-  padding-left: 43px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.widget {
-  padding-left: 40px;
-  min-height: 60px;
-}
-.widget-link {
-  padding-top: 20px;
-  padding-right: 43px;
-  padding-bottom: 20px;
-  padding-left: 43px;
-
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-
-  color: #fff;
-  background-color: #ff6b08;
-  box-shadow: 0px 8px 43px 0px rgba(255, 107, 8, 0.588);
-}
-
-.widget-link:hover {
-  box-shadow: 0px 8px 23px 0px #ff6b0896;
-}
-
-.widget-link:active {
-  box-shadow: inset 0px 2px 5px 0px #ff6b0896;
-}
-
-.photo:hover {
-  animation: swing 1s;
-}
-
-.widget:hover {
-  animation: heartBeat 1s;
 }
