@@ -9,10 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="JS files/pdf.js"></script>
+    <script src="JS files/button.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="invoice">
         <aside class="left-side">
             <section class="contacts">
                 <h2 class="contacts-title">Contact</h2>
@@ -79,6 +83,9 @@
                     <li class="skills-item">History of Central Europe from 5th century B.C. to 17th century A.D</li>
                     <li class="skills-item">Running</li>
                 </ul>
+            </section>
+            <section class="skills" id="pdf">
+                <button class="btn btn-primary" id="download"> <i class="fa fa-download"></i> Download CV</button>
             </section>
         </aside>
         <div class="right-side">

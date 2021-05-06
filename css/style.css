@@ -2,6 +2,7 @@ body {
   background-color: #f5f7fa;
   padding: 40px;
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 .container {
   display: flex;
@@ -182,4 +183,23 @@ body {
 .contacts-link:hover {
   opacity: 1;
   text-decoration: underline;
+}
+
+.btn {
+  background-color: #3B5998;
+  border: 1px solid #2a2a2a;
+  color: #ffffff;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.fa {
+  color: #ffffff;
 }
