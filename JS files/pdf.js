@@ -1,7 +1,7 @@
 window.onload = function () {
     document.getElementById("download").addEventListener("click", () => {
-        var invoice = this.document.getElementById("invoice");
-        var opt = {
+        const invoice = this.document.getElementById("invoice");
+        const opt = {
             margin:       0,
             filename:     'Lukasz_Sobel_CV.pdf',
             image:        { type: 'jpeg', quality: 0.98 },
