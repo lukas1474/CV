@@ -3,7 +3,7 @@ window.onload = function () {
         var invoice = this.document.getElementById("invoice");
         var opt = {
             margin:       0,
-            filename:     'CV.pdf',
+            filename:     'Lukasz_Sobel_CV.pdf',
             image:        { type: 'jpeg', quality: 0.98 },
             enableLinks:  true,
             html2canvas:  { scale: 3, width: 1358, height: 1920 },
